@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "crud-escolar-webapp": {
+    "sistema-escolar-webapp": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/crud-escolar-webapp",
+            "outputPath": "dist/sistema-escolar-webapp",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "crud-escolar-webapp:build:production"
+              "browserTarget": "sistema-escolar-webapp:build:production"
             },
             "development": {
-              "browserTarget": "crud-escolar-webapp:build:development"
+              "browserTarget": "sistema-escolar-webapp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "crud-escolar-webapp:build"
+            "browserTarget": "sistema-escolar-webapp:build"
           }
         },
         "test": {
